@@ -1,3 +1,11 @@
+/*
+ * This document is deprecated.
+ * It was originally used for reading data from a csv.
+ * The code for that is found in readRegionalData()
+ * To use this code, change index.html and change the link
+ *	from "dataHandlerNew.js" to "dataHandler.js"
+ */
+
 $(document).ready(function() {
 	var objArray = readRegionalData();
 	var maxExp = findMaxExposure(objArray);
