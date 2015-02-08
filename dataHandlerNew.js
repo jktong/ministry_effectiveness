@@ -8,7 +8,7 @@ $(document).ready(function() {
 	// Change the field here to decide what to color by
 	// Eventually, want buttons so viewers can interact with 
 	//	the page and toggle between fields of interest
-	setColourBy(ingestedData, "invldStudents");
+	setColourBy(ingestedData, "spiritual_conversations");
 	/* draw states on id #statesvg */
 	uStates.draw("#statesvg", ingestedData, tooltipHtml);
 });
